@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+}
+
+@media screen and (max-width:767px) {
+  .site_container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .mobile_header {
+    display: flex;
+    align-items: center;
+    padding-left: 2em;
+  }
+
+  .menu_icon {
+    height: 20px;
+    width: 20px;
+
+  }
+
+  .header_logo {
+    min-width: 67%;
+    padding: 1em;
+  }
+
+  .home_section {
+    height: auto;
+    background-image: url("assets/mobile_home_bg.png");
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 3em;
+  }
+
+  .titles {
+    color: red;
+  }
+
+  .greating_title {
+
+  }
+
+  .section_title {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .edition_title {
+    margin-top: 0;
+  }
+
+  .description {
+    padding: 1em;
+    font-size: 19px;
+    height: auto;
+    text-align: justify;
+    border: 5px solid white;
+  }
+
+  .emplacement {
+    padding: 1em;
+    font-size: 19px;
+    height: auto;
+    text-align: center;
+    padding-bottom: 2em;
+    padding-top: 3em;
+  }
+
+  .emplacement_date {
+    font-weight: bold;
+  }
+
+  .emplacement_location {
+
+  }
+}
