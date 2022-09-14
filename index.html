@@ -5,16 +5,31 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Baptist Youth Conference</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style.css" type="text/css">
+  <script src="https://kit.fontawesome.com/1bc3a7e061.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
   
 </head>
-<body>
+<body onload="buildspeakerlistupto(2)">
   <div class="site_container">
-    <header class="mobile_header">
+    <!--<header class="mobile_header">
       <img src="assets/mobile_menu.png" alt="menu icon" class="menu_icon">
       <img src="assets/mobile_logo.svg" alt="menu icon" class="header_logo">
-    </header>
-    <section class="home_section">
+    </header>-->
+    <section id="home" class="home_section">
+      <div class="navbar_menu">
+        <img src="assets/mobile_menu.png" alt="menu icon" class="menu_icon">
+        <ul class="navbar_menu_content">
+          <li class="close_menu_button"> <i class="fa-solid fa-xmark close_button mobile_close_button"></i></li>
+          <a href="index.html#home"><li class="navbar_menu_content_element">Home</li></a>
+          <a href="about.html#about"><li class="navbar_menu_content_element">About</li></a>
+          <a href="index.html#program"><li class="navbar_menu_content_element">Program</li></a>
+          <a href="index.html#speakers"><li class="navbar_menu_content_element">Speakers</li></a>
+          <a href="about.html#partners"><li class="navbar_menu_content_element">Partner</li></a>
+          <a href="about.html#events"><li class="navbar_menu_content_element">Event</li></a>
+        </ul>
+      </div>
       <div class="titles">
         <span class="greating_title">
         Youth and purity
@@ -37,7 +52,7 @@
       </div>
       
     </section>
-    <section class="main_program">
+    <section id="program" class="main_program">
       <h2 class="section_title">Main Program</h2>
       <div class="section_separator"></div>
       <div class="program_element">
@@ -67,7 +82,7 @@
       </div>
       <button class="join_conference_button">Join Youth Conference 2023</button>
     </section>
-    <section class="speaker_section">
+    <section id="speakers" class="speaker_section">
       <h2 class="section_title">Featured Speakers</h2>
       <div class="section_separator"></div>
       <div class="speakers_list">
@@ -97,14 +112,22 @@
         </div>
       </div>
       <div class="see_more_div">
-        <button class="see_more_button">
+        <button class="see_more_button seemore" onclick="buildspeakerlistall()">
           <span class="see_more_text">More</span>
           <img src="assets/union.svg" alt="less and more icon" class="more_icon">
         </button>
+        <button class="see_more_button seeless" onclick="buildspeakerlistupto(2)">
+          <span class="see_more_text">Less</span>
+          <img src="assets/union.svg" alt="less and more icon" class="more_icon reversed">
+        </button>
       </div>
     </section>
+    <footer class="project_footer">
+      <img src="assets/mobile_logo.svg" alt="conference logo" class="footer_logo_image">
+      <p class="footer_copyright">2023 Baptist Youth National Conference <br> Some Right Reserved.</p>
+    </footer>
     
   </div>
-  
+  <script src="js/general.js"> </script>
 </body>
 </html>
