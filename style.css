@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
   .site_container {
     width: 100%;
     margin: 0;
@@ -15,7 +15,6 @@
   .menu_icon {
     height: 20px;
     width: 20px;
-
   }
 
   .header_logo {
@@ -23,7 +22,6 @@
     padding: 1em;
   }
 
-  
   .navbar_menu_content {
     display: none;
     font-size: 1.75rem;
@@ -74,23 +72,17 @@
     padding: 0.5em;
   }
 
-
   .home_section {
     height: auto;
     background-image: url("assets/mobile_home_bg.png");
-
     padding-left: 1.5em;
     padding-right: 1.5em;
     padding-top: 1em;
   }
 
   .titles {
-    color: #FF4F38;
+    color: #ff4f38;
     margin-top: 1em;
-  }
-
-  .greating_title {
-
   }
 
   .section_title {
@@ -125,10 +117,6 @@
     font-weight: bold;
   }
 
-  .emplacement_location {
-
-  }
-
   .main_program {
     background-image: url("assets/main_section_background.jpg");
     color: #fff;
@@ -156,7 +144,7 @@
   }
 
   .program_element {
-    background-color: #3D4046; 
+    background-color: #3d4046;
     display: flex;
     margin-top: 1em;
     padding: 0.5em;
@@ -184,7 +172,7 @@
   .join_conference_button {
     margin-top: 2em;
     height: 4em;
-    background-color: #FF4F38;
+    background-color: #ff4f38;
     color: #fff;
     width: 60%;
     border: none;
@@ -209,27 +197,17 @@
     display: flex;
     align-items: flex-start;
     margin-top: 1em;
-
-  }
-
-  .speacker_show {
-    
-  }
-
-  .speaker_image {
   }
 
   .speaker_details {
     display: flex;
     flex-direction: column;
-
   }
 
   .speaker_name {
     color: #272a31;
     font-size: 1.8rem;
     font-weight: normal;
-
   }
 
   .speaker_fonction {
@@ -239,7 +217,6 @@
     font-family: "lato", sans-serif;
     color: #ec5242;
     font-weight: bold;
-
   }
 
   .speaker_details_separator {
@@ -269,10 +246,6 @@
     display: none;
   }
 
-  .see_more_text {
-
-  }
-
   .more_icon {
     margin-left: 0.5em;
   }
@@ -299,7 +272,6 @@
     padding-right: 1em;
     font-size: 0.7rem;
   }
-
 }
 
 a {
@@ -320,5 +292,5 @@ a:hover {
 
 body {
   margin: 0;
-  font-family: lato!important;
+  font-family: lato !important;
 }

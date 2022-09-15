@@ -2,10 +2,10 @@
 
 body {
   margin: 0;
-  font-family: lato,sans-serif;
+  font-family: lato, sans-serif;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   .site_container {
     width: 100%;
     margin: 0;
@@ -25,7 +25,7 @@ body {
     display: flex;
     gap: 2em;
     margin-left: auto;
-    background-color: #3E3E3E;
+    background-color: #3e3e3e;
     color: #fff;
     align-items: center;
     width: 100%;
@@ -60,20 +60,19 @@ body {
   }
 
   .navbar_menu_content_element {
-    color: black!important;
+    color: black !important;
     padding-left: 1em;
     padding-right: 1em;
   }
-  
+
   .last_menu_item {
-    color: red!important;
+    color: red !important;
     border: 3px solid red;
   }
 
   .desktop_home {
     padding-right: 37em;
   }
-
 
   .home_section {
     height: auto;
@@ -88,7 +87,7 @@ body {
 
   .titles {
     margin-top: 1em;
-    color: #FF4F38;
+    color: #ff4f38;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -121,10 +120,8 @@ body {
   }
 
   .contactemail {
-    text-decoration: underline!important;
+    text-decoration: underline !important;
   }
-
-  
 
   .emplacement {
     padding: 1em;
@@ -145,7 +142,7 @@ body {
     padding-top: 2em;
     padding-right: 3em;
   }
-  
+
   .logo_title {
     font-size: 1.5rem;
     width: 60%;
@@ -171,7 +168,6 @@ body {
     padding: 2.5em;
     margin-bottom: 3em;
     margin-top: 2em;
-
   }
 
   .section_separator {
@@ -180,11 +176,10 @@ body {
   }
 
   .event_section {
-
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;  
+    justify-content: center;
     align-items: center;
     padding-top: 2em;
     gap: 1em;
@@ -236,6 +231,7 @@ body {
   .event_theme {
     font-weight: bolder;
   }
+
   .mobile_partners {
     display: none;
   }
@@ -271,7 +267,6 @@ body {
     font-size: 1rem;
     color: #fff;
   }
-
 }
 
 a {

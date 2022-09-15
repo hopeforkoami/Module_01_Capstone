@@ -2,10 +2,10 @@
 
 body {
   margin: 0;
-  font-family: lato,sans-serif;
+  font-family: lato, sans-serif;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
   .site_container {
     width: 100%;
     margin: 0;
@@ -22,7 +22,6 @@ body {
   .menu_icon {
     height: 20px;
     width: 20px;
-
   }
 
   .header_logo {
@@ -79,7 +78,6 @@ body {
   .home_section {
     height: auto;
     background-image: url("assets/mobile_home_bg.png");
-
     padding-left: 1.5em;
     padding-right: 1.5em;
     padding-top: 1em;
@@ -87,7 +85,7 @@ body {
 
   .titles {
     margin-top: 1em;
-    color: #FF4F38;
+    color: #ff4f38;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,13 +114,14 @@ body {
     text-align: justify;
     background-color: white;
   }
+
   .logo_section {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 2em;
   }
-  
+
   .logo_title {
     font-size: 1.5rem;
     width: 60%;
@@ -145,7 +144,6 @@ body {
     border: 2px solid #818181;
     padding: 1em;
     margin-bottom: 3em;
-
   }
 
   .emplacement {
@@ -165,11 +163,10 @@ body {
   }
 
   .event_section {
-
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;  
+    justify-content: center;
     align-items: center;
     padding-top: 2em;
     gap: 1em;
@@ -237,7 +234,6 @@ body {
     align-items: center;
     justify-content: center;
     padding-left: 0;
-
   }
 
   .partner {
@@ -247,7 +243,7 @@ body {
     align-items: center;
     justify-content: center;
   }
-  
+
   .partner_image {
     width: 100%;
   }
@@ -276,7 +272,6 @@ body {
     padding-right: 1em;
     font-size: 0.7rem;
   }
-
 }
 
 a {

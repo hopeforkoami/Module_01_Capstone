@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   .site_container {
     width: 100%;
     margin: 0;
@@ -20,7 +20,7 @@
     display: flex;
     gap: 2em;
     margin-left: auto;
-    background-color: #3E3E3E;
+    background-color: #3e3e3e;
     color: #fff;
     align-items: center;
     width: 100%;
@@ -55,20 +55,19 @@
   }
 
   .navbar_menu_content_element {
-    color: black!important;
+    color: black !important;
     padding-left: 1em;
     padding-right: 1em;
   }
-  
+
   .last_menu_item {
-    color: red!important;
+    color: red !important;
     border: 3px solid red;
   }
 
   .desktop_home {
     padding-right: 37em;
   }
-
 
   .home_section {
     height: auto;
@@ -83,7 +82,7 @@
 
   .titles {
     margin-top: 1em;
-    color: #FF4F38;
+    color: #ff4f38;
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -119,10 +118,8 @@
   }
 
   .contactemail {
-    text-decoration: underline!important;
+    text-decoration: underline !important;
   }
-
-  
 
   .emplacement {
     padding: 1em;
@@ -177,7 +174,7 @@
   }
 
   .program_element {
-    background-color: #3D4046; 
+    background-color: #3d4046;
     display: flex;
     flex-direction: column;
     margin-top: 1em;
@@ -195,7 +192,7 @@
 
   .program_title {
     padding: 0.5em;
-    color: #FA5528;
+    color: #fa5528;
     font-size: larger;
     font-weight: bolder;
   }
@@ -242,7 +239,6 @@
     justify-content: center;
     gap: 1em;
     flex-wrap: wrap;
-    
   }
 
   .speaker_card {
@@ -250,11 +246,10 @@
     align-items: flex-start;
     margin-top: 1em;
     width: 40%;
-
   }
 
   .speacker_show {
-    
+
   }
 
   .speaker_image {
@@ -263,14 +258,12 @@
   .speaker_details {
     display: flex;
     flex-direction: column;
-
   }
 
   .speaker_name {
     color: #272a31;
     font-size: 1.8rem;
     font-weight: normal;
-
   }
 
   .speaker_fonction {
@@ -280,7 +273,6 @@
     font-family: "lato", sans-serif;
     color: #ec5242;
     font-weight: bold;
-
   }
 
   .speaker_details_separator {
@@ -301,7 +293,7 @@
     width: 90%;
   }
 
-  .see_more_div{
+  .see_more_div {
     display: none;
   }
 
@@ -327,7 +319,6 @@
     align-items: center;
     justify-content: center;
     padding-left: 0;
-
   }
 
   .partner {
@@ -337,7 +328,7 @@
     align-items: center;
     justify-content: center;
   }
-  
+
   .partner_image {
     width: 100%;
   }
@@ -368,7 +359,6 @@
     font-size: 0.7rem;
     font-size: larger;
   }
-
 }
 
 a {
@@ -389,5 +379,5 @@ a:hover {
 
 body {
   margin: 0;
-  font-family: lato!important;
+  font-family: lato !important;
 }
