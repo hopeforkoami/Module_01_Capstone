@@ -70,10 +70,6 @@ body {
     border: 3px solid red;
   }
 
-  .desktop_home {
-    
-  }
-
   .home_section {
     height: auto;
     background-image: url("assets/mobile_home_bg.png");
@@ -101,7 +97,7 @@ body {
     text-transform: uppercase;
     width: 60%;
     font-size: xx-large;
-    font-weight: bold
+    font-weight: bold;
   }
 
   .edition_title {
