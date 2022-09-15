@@ -270,6 +270,10 @@
   .mobile_partners {
     display: none;
   }
+
+  .desktop_visible {
+    display: none;
+  }
 }
 
 a {
