@@ -1,9 +1,7 @@
 const menuItem = document.querySelector('.mobile_navbar_menu_content');
 const closeMenu = document.querySelector('.mobile_close_button');
 const openMenu = document.querySelector('.menu_icon');
-//const menu = document.querySelector('.navbar_menu');
 const speakerlist = document.querySelector('.speakers_list');
-//const seemorebutton = document.querySelector('.see_more_button');
 function show() {
   menuItem.classList.toggle('visible_item');
   menuItem.classList.remove('hidden');
@@ -59,30 +57,6 @@ const speakers = [
   },
 ];
 
-function buildspeakerlistupto(index) {
-  let response = '';
-  for (let i = 0; i < index; i++) {
-    response += buildspeakercard(i);
-  }
-  speakerlist.innerHTML = response;
-  document.querySelector('.seemore').classList.remove('hidden');
-  document.querySelector('.seemore').classList.toggle('visible_item');
-  document.querySelector('.seeless').classList.toggle('hidden');
-  document.querySelector('.seeless').classList.remove('visible_item');
-}
-
-function buildspeakerlistall(index) {
-  let response = '';
-  for (let i = 0; i < speakers.length; i++) {
-    response += buildspeakercard(i);
-  }
-  speakerlist.innerHTML = response;
-  document.querySelector('.seeless').classList.remove('hidden');
-  document.querySelector('.seeless').classList.toggle('visible_item');
-  document.querySelector('.seemore').classList.toggle('hidden');
-  document.querySelector('.seemore').classList.remove('visible_item');
-}
-
 function buildspeakercard(index) {
   return `${'<div class="speaker_card">'
   + '<div class="speacker_show">'
@@ -94,12 +68,29 @@ function buildspeakercard(index) {
     + '<div class="speaker_details_separator"></div>'
     + `<p class="speaker_description">${speakers[index].description}</p></div></div>`;
 }
-
-function showseemore() {
-  document.querySelector('.see_more_text').innerHTML = 'More';
-  document.querySelector('.more_icon').classList.toggle;
+function buildspeakerlistupto(index) {
+  let response = '';
+  for (let i = 0; i < index; i += 1) {
+    response += buildspeakercard(i);
+  }
+  speakerlist.innerHTML = response;
+  document.querySelector('.seemore').classList.remove('hidden');
+  document.querySelector('.seemore').classList.toggle('visible_item');
+  document.querySelector('.seeless').classList.toggle('hidden');
+  document.querySelector('.seeless').classList.remove('visible_item');
 }
 
-function showless() {
-
+function buildspeakerlistall() {
+  let response = '';
+  for (let i = 0; i < speakers.length; i += 1) {
+    response += buildspeakercard(i);
+  }
+  speakerlist.innerHTML = response;
+  document.querySelector('.seeless').classList.remove('hidden');
+  document.querySelector('.seeless').classList.toggle('visible_item');
+  document.querySelector('.seemore').classList.toggle('hidden');
+  document.querySelector('.seemore').classList.remove('visible_item');
 }
+
+document.querySelector('body').addEventListener('load', buildspeakerlistall);
+document.querySelector('.seeless').addEventListener('click', buildspeakerlistupto(2));

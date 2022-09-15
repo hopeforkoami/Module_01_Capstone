@@ -45,7 +45,7 @@ body {
     padding: 0.75rem 1rem;
     text-decoration: none;
     transition-duration: 0.3s;
-    font-family: 'Inter', sans-serif;
+    font-family: 'lato', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
@@ -53,7 +53,6 @@ body {
     display: flex;
     align-items: center;
     color: #fff;
-    text-decoration: none;
   }
 
   .desktop_nav_bar {
@@ -90,10 +89,6 @@ body {
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-  }
-
-  .greating_title {
-
   }
 
   .section_title {

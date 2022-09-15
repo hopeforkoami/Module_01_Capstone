@@ -85,14 +85,10 @@
     color: #ff4f38;
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: flex-start;
     flex-wrap: wrap;
     font-weight: bolder;
     font-size: xx-large;
-  }
-
-  .greating_title {
-
   }
 
   .section_title {
@@ -136,10 +132,6 @@
   .emplacement_date {
     font-weight: bold;
     font-size: 3rem;
-  }
-
-  .emplacement_location {
-
   }
 
   .main_program {
@@ -248,13 +240,6 @@
     width: 40%;
   }
 
-  .speacker_show {
-
-  }
-
-  .speaker_image {
-  }
-
   .speaker_details {
     display: flex;
     flex-direction: column;
@@ -269,7 +254,6 @@
   .speaker_fonction {
     font-style: italic;
     font-size: 1rem;
-    font-weight: 100;
     font-family: "lato", sans-serif;
     color: #ec5242;
     font-weight: bold;
@@ -291,9 +275,6 @@
 
   .see_more_div {
     width: 90%;
-  }
-
-  .see_more_div {
     display: none;
   }
 
@@ -379,5 +360,5 @@ a:hover {
 
 body {
   margin: 0;
-  font-family: lato !important;
+  font-family: lato, sans-serif !important;
 }
