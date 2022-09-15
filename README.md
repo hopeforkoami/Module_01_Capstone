@@ -12,6 +12,10 @@
 
 Check the live demo [github](https://hopeforkoami.github.io/Module_01_Capstone/)👈
 
+## Video 🔗
+
+Check the presentation video [youtube](https://youtu.be/ir8TelxNwr8)👈
+
 
 ## Getting Started 🏁
 To get a local copy up and running follow these simple example steps.
