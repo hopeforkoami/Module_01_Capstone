@@ -266,6 +266,10 @@
     padding-right: 1em;
     font-size: 0.7rem;
   }
+
+  .mobile_partners {
+    display: none;
+  }
 }
 
 a {
