@@ -6,30 +6,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Baptist Youth Conference</title>
   <link rel="stylesheet" href="./style.css" type="text/css">
+  <link rel="stylesheet" href="./index_desktop.css" type="text/css">
   <script src="https://kit.fontawesome.com/1bc3a7e061.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
   
 </head>
-<body onload="buildspeakerlistupto(2)">
+<body onload="buildspeakerlistall()">
   <div class="site_container">
     <header class="header">
       <navbar class="desktop_navbar_menu">
+        <div class="social_media_icons">
+          <ul class="social">
+            <a href="https://github.com/hopeforkoami"> <li class="social_icon"><img src="assets/github.svg" alt="facebook icon"></li></a>
+              <a href="https://twitter.com/KNogbedji"><li class="social_icon"><img src="assets/twitter.svg" alt="twitter icon"></li></a>
+          </ul>
+          <ul class="sub_menu">
+            <li class="sub_menu_element">Logout</li>
+            <li class="sub_menu_element">Mypage</li>
+            <li class="sub_menu_element">Korean</li>
+          </ul>
+        </div>
         <ul class="navbar_menu_content">
-          <a href="index.html#home"><li class="header_logo"><img src="assets/mobile_logo.svg" alt="menu icon" class="header_logo"></li></a>
-          <a href="index.html#home"><li class="navbar_menu_content_element">Home</li></a>
+          <a href="index.html#home"><li class="desktop_home"><img src="assets/mobile_logo.svg" alt="menu icon" class="header_logo_image"></li></a>
           <a href="about.html#about"><li class="navbar_menu_content_element">About</li></a>
           <a href="index.html#program"><li class="navbar_menu_content_element">Program</li></a>
-          <a href="index.html#speakers"><li class="navbar_menu_content_element">Speakers</li></a>
-          <a href="about.html#partners"><li class="navbar_menu_content_element">Partner</li></a>
-          <a href="about.html#events"><li class="navbar_menu_content_element">Event</li></a>
+          <a href="index.html#speakers"><li class="navbar_menu_content_element">Join</li></a>
+          <a href="about.html#partners"><li class="navbar_menu_content_element">Sponsor</li></a>
+          <a href="about.html#events"><li class="navbar_menu_content_element">news</li></a>
+          <a href="about.html#events"><li class="navbar_menu_content_element last_menu_item">Youth Conference</li></a>
         </ul>
       </navbar>
     </header>
     <section id="home" class="home_section">
       <div class="navbar_menu">
         <img src="assets/mobile_menu.png" alt="menu icon" class="menu_icon">
-        <ul class="navbar_menu_content">
+        <ul class="navbar_menu_content mobile_navbar_menu_content">
           <li class="close_menu_button"> <i class="fa-solid fa-xmark close_button mobile_close_button"></i></li>
           <a href="index.html#home"><li class="navbar_menu_content_element">Home</li></a>
           <a href="about.html#about"><li class="navbar_menu_content_element">About</li></a>
@@ -62,37 +74,40 @@
       
     </section>
     <section id="program" class="main_program">
-      <h2 class="section_title">Main Program</h2>
+      <h2 class="main_program_title ">Main Program</h2>
       <div class="section_separator"></div>
-      <div class="program_element">
-        <img src="assets/lecture.png" alt="lecure program icon" class="program_icon">
-        <span class="program_title"> Lecture</span>
-        <p class="program_description">Listen to the speakers from various countries about the message of youth and purity</p>
+      <div class="program_content">
+          <div class="program_element">
+          <img src="assets/lecture.png" alt="lecure program icon" class="program_icon">
+          <span class="program_title"> Lecture</span>
+          <p class="program_description">Listen to the speakers from various countries about the message of youth and purity</p>
+        </div>
+        <div class="program_element">
+          <img src="assets/exhibition.png" alt="lecure program icon" class="program_icon">
+          <span class="program_title"> CC Exhibition</span>
+          <p class="program_description">Appreciate various prestation from churchs choirs and musical groups and scketches base on the theme of the conference </p>
+        </div>
+        <div class="program_element">
+          <img src="assets/forum.png" alt="lecure program icon" class="program_icon">
+          <span class="program_title"> Forum</span>
+          <p class="program_description">Have a time to share your thoughts and opinions with youth teams and learn from experienced pastors on differents fiels of youth live</p>
+        </div>
+        <div class="program_element">
+          <img src="assets/workshop.png" alt="lecure program icon" class="program_icon">
+          <span class="program_title"> workshop</span>
+          <p class="program_description">try to create a schedule  your differents goal and sort out a plan to achieve them based on differents lessons received during lectures </p>
+        </div>
+        <div class="program_element">
+          <img src="assets/ignite.png" alt="lecure program icon" class="program_icon">
+          <span class="program_title"> Cc Ignite</span>
+          <p class="program_description">Get opportunities to network with other youth from all region with whome you share the same religious convictions</p>
+        </div>
       </div>
-      <div class="program_element">
-        <img src="assets/exhibition.png" alt="lecure program icon" class="program_icon">
-        <span class="program_title"> CC Exhibition</span>
-        <p class="program_description">Appreciate various prestation from churchs choirs and musical groups and scketches base on the theme of the conference </p>
-      </div>
-      <div class="program_element">
-        <img src="assets/forum.png" alt="lecure program icon" class="program_icon">
-        <span class="program_title"> Forum</span>
-        <p class="program_description">Have a time to share your thoughts and opinions with youth teams and learn from experienced pastors on differents fiels of youth live</p>
-      </div>
-      <div class="program_element">
-        <img src="assets/workshop.png" alt="lecure program icon" class="program_icon">
-        <span class="program_title"> workshop</span>
-        <p class="program_description">try to create a schedule  your differents goal and sort out a plan to achieve them based on differents lessons received during lectures </p>
-      </div>
-      <div class="program_element">
-        <img src="assets/ignite.png" alt="lecure program icon" class="program_icon">
-        <span class="program_title"> Cc Ignite</span>
-        <p class="program_description">Get opportunities to network with other youth from all region with whome you share the same religious convictions</p>
-      </div>
-      <button class="join_conference_button">Join Youth Conference 2023</button>
+      <button class="join_conference_button desktop_visible">SEE THE WHOLE PROGRAM</button>
+      <button class="join_conference_button desktop_hidden">Join Youth Conference 2023</button>
     </section>
     <section id="speakers" class="speaker_section">
-      <h2 class="section_title">Featured Speakers</h2>
+      <h2 class="main_program_title">Featured Speakers</h2>
       <div class="section_separator"></div>
       <div class="speakers_list">
         <div class="speaker_card">
@@ -130,6 +145,19 @@
           <img src="assets/union.svg" alt="less and more icon" class="more_icon reversed">
         </button>
       </div>
+    </section>
+    <section id="partners" class="partners_section mobile_partners">
+      <h3 class="patner_title title">Partner</h3>
+      <div class="separator"></div>
+      <ul class="partners_list">
+        <li class="partner"><img class="partner_image" src="assets/partners/abwe.png" alt=""></li>
+        <li class="partner"><img class="partner_image" src="assets/partners/missioserve.png" alt=""></li>
+        <li class="partner"><img class="partner_image" src="assets/partners/partner4.png" alt=""></li>
+        <li class="partner"><img class="partner_image" src="assets/partners/partner5.webp" alt=""></li>
+        <li class="partner"><img class="partner_image" src="assets/partners/partner6.png" alt=""></li>
+        <li class="partner"><img class="partner_image" src="assets/partners/partner7.png" alt=""></li>
+        <li class="partner"><img class="partner_image" src="assets/partners/partner8.png" alt=""></li>
+      </ul>
     </section>
     <footer class="project_footer">
       <img src="assets/mobile_logo.svg" alt="conference logo" class="footer_logo_image">

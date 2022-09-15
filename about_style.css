@@ -11,6 +11,10 @@ body {
     margin: 0;
   }
 
+  .desktop_navbar_menu {
+    display: none;
+  }
+
   .header {
     display: none;
   }
@@ -22,7 +26,7 @@ body {
   }
 
   .header_logo {
-    min-width: 67%;
+    width: 100%;
     padding: 1em;
   }
 
@@ -182,6 +186,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 2em;
   }
 
   .event_card {

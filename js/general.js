@@ -1,4 +1,4 @@
-const menuItem = document.querySelector('.navbar_menu_content');
+const menuItem = document.querySelector('.mobile_navbar_menu_content');
 const closeMenu = document.querySelector('.mobile_close_button');
 const openMenu = document.querySelector('.menu_icon');
 const menu = document.querySelector('.navbar_menu');

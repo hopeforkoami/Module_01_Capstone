@@ -25,12 +25,18 @@ body {
     display: flex;
     gap: 2em;
     margin-left: auto;
+    background-color: #3E3E3E;
+    color: #fff;
+    align-items: center;
+    width: 100%;
   }
 
   .social {
     display: flex;
     gap: 1em;
     list-style: none;
+    width: auto;
+    margin-left: auto;
   }
 
   .sub_menu {
