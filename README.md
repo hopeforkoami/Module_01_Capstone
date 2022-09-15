@@ -13,7 +13,7 @@
 Check the live demo [github](https://hopeforkoami.github.io/Module_01_Capstone/)👈
 
 
-## Getting Started
+## Getting Started 🏁
 To get a local copy up and running follow these simple example steps.
 
 **This is the Baptist Youth National Conference Website**
@@ -21,16 +21,56 @@ To get a local copy up and running follow these simple example steps.
 
 To get a local copy up and running follow these simple example steps.
 
+> Clone the app by running this command
+
+```bash 
+git clone https://github.com/hopeforkoami/Module_01_Capstone.git
+```
+> Make sure you install the dependencies by runing this command
+
+```bash
+npm install
+```
+
+
+> View it in your browser by running this command
+
+```bash
+ npm start
+```
+It runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000).
+
 ### Prerequisites
     Web Browser (e.g. Firefox, Chrome, Edge)
 
 ### Setup
-    -using git command line
-      if you are using the git command line, please use this command in your terminal
-        git clone https://github.com/hopeforkoami/Module_01_Capstone.git
-    -using the GitHub Desktop
-      if you are using the desktop version of github, please  click on the green "code" button and click on "Open with GitHub Desktop" 
+To get a local copy up and running follow these simple example steps.
 
+**This is the Baptist Youth National Conference Website**
+
+
+To get a local copy up and running follow these simple example steps.
+
+> Clone the app by running this command
+
+```bash 
+git clone https://github.com/hopeforkoami/Module_01_Capstone.git
+```
+> Make sure you install the dependencies by runing this command
+
+```bash
+npm install
+```
+
+
+> View it in your browser by running this command
+
+```bash
+ npm start
+```
+It runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000).
 
 ### Install
     Install the linters in your local environment to mantain your code clean 
