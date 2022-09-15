@@ -64,6 +64,16 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- The original design is of [Cindy Shin](https://www.behance.net/adagio07)
+- Gibson
+- Bands
+
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
+
+Under the [Creative Commons license](https://creativecommons.org/licenses/by-nc/4.0/) - Credit to [Cindy Shin](https://www.behance.net/adagio07)
 
 
 

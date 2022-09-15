@@ -24,6 +24,8 @@
     color: #fff;
     align-items: center;
     width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .social {
@@ -38,16 +40,14 @@
     display: flex;
     gap: 1em;
     list-style: none;
-    padding-right: 2em;
   }
 
   .navbar_menu_content {
     display: flex;
     list-style: none;
-    gap: 1.5em;
     align-items: center;
     margin-left: auto;
-    padding-right: 2em;
+    padding-right: 5%;
   }
 
   .header_logo_image {
@@ -66,7 +66,7 @@
   }
 
   .desktop_home {
-    padding-right: 37em;
+    
   }
 
   .home_section {
@@ -97,10 +97,16 @@
     text-align: left;
     text-transform: uppercase;
     width: 60%;
+    font-size: xx-large;
+    font-weight: bold
   }
 
   .edition_title {
     margin-top: 0;
+  }
+
+  .greating_title {
+    font-size: 1.5rem;
   }
 
   .description {
@@ -163,6 +169,7 @@
   .program_content {
     display: flex;
     width: 80%;
+    gap: 3px;
   }
 
   .program_element {
@@ -170,10 +177,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 1em;
-    padding: 0.5em;
     align-items: center;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
     opacity: 0.7;
     width: 20%;
   }
@@ -191,7 +195,7 @@
 
   .program_description {
     padding-left: 0.5em;
-    width: 65%;
+    text-align: center;
   }
 
   .join_conference_button {
