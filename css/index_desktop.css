@@ -67,7 +67,7 @@
 
   .home_section {
     height: auto;
-    background-image: url("assets/mobile_home_bg.png");
+    background-image: url("../assets/mobile_home_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding-left: 20%;
@@ -137,7 +137,7 @@
   }
 
   .main_program {
-    background-image: url("assets/main_section_background.jpg");
+    background-image: url("../assets/main_section_background.jpg");
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -341,9 +341,6 @@
     font-size: larger;
   }
 
-  .mobile_partners {
-    display: none;
-  }
 }
 
 a {

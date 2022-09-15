@@ -36,7 +36,7 @@ body {
     line-height: 2.75rem;
     list-style-type: none;
     height: 100vh;
-    background-image: url("assets/main_section_background.jpg");
+    background-image: url("../assets/main_section_background.jpg");
     color: #fff;
     padding: 1em;
   }
@@ -76,7 +76,7 @@ body {
 
   .home_section {
     height: auto;
-    background-image: url("assets/mobile_home_bg.png");
+    background-image: url("../assets/mobile_home_bg.png");
     padding-left: 1.5em;
     padding-right: 1.5em;
     padding-top: 1em;
