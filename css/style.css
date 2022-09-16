@@ -29,7 +29,7 @@
     line-height: 2.75rem;
     list-style-type: none;
     height: 100vh;
-    background-image: url("../assets/main_section_background.jpg");
+    background: transparent;
     color: #fff;
     padding: 1em;
   }
@@ -45,7 +45,11 @@
     line-height: 44px;
     display: flex;
     align-items: center;
-    color: #fff;
+    color: red;
+  }
+
+  .navbar_menu_content_element:hover {
+    text-decoration: underline;
   }
 
   .desktop_nav_bar {
@@ -66,9 +70,15 @@
   }
 
   .mobile_close_button {
-    color: #fff;
+    color: red;
     margin-left: auto;
     padding: 0.5em;
+  }
+
+  .mobile_close_button:hover {
+    color: red;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px, rgba(0, 0, 0, 0.12) 0 -12px 30px, rgba(0, 0, 0, 0.12) 0 4px 6px, rgba(0, 0, 0, 0.17) 0 12px 13px, rgba(0, 0, 0, 0.09) 0 -3px 5px;
+    border-radius: 16px;
   }
 
   .home_section {

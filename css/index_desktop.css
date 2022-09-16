@@ -48,6 +48,24 @@
     align-items: center;
     margin-left: auto;
     padding-right: 5%;
+    width: 100%;
+    margin-bottom: 0;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .menu_left_part {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .menu_right_part {
+    display: flex;
+    align-items: flex-end;
+    margin-left: auto;
+    justify-content: flex-end;
   }
 
   .header_logo_image {
@@ -58,6 +76,10 @@
     color: black !important;
     padding-left: 1em;
     padding-right: 1em;
+  }
+
+  .navbar_menu_content_element:hover {
+    color: red !important;
   }
 
   .last_menu_item {
