@@ -2,101 +2,103 @@
 
 body {
   margin: 0;
-  font-family: lato,sans-serif;
+  font-family: lato, sans-serif;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (max-width: 767px) {
   .site_container {
     width: 100%;
     margin: 0;
   }
 
-  .navbar_menu {
+  .desktop_navbar_menu {
     display: none;
   }
 
-  .desktop_navbar_menu {
-    display: flex;
-    flex-direction: column;
+  .header {
+    display: none;
+  }
+
+  .menu_icon {
+    height: 20px;
+    width: 20px;
+  }
+
+  .header_logo {
     width: 100%;
-  }
-
-  .social_media_icons {
-    display: flex;
-    gap: 2em;
-    margin-left: auto;
-    background-color: #3E3E3E;
-    color: #fff;
-    align-items: center;
-    width: 100%;
-  }
-
-  .social {
-    display: flex;
-    gap: 1em;
-    list-style: none;
-    width: auto;
-    margin-left: auto;
-  }
-
-  .sub_menu {
-    display: flex;
-    gap: 1em;
-    list-style: none;
-    padding-right: 2em;
+    padding: 1em;
   }
 
   .navbar_menu_content {
-    display: flex;
-    list-style: none;
-    gap: 1.5em;
-    align-items: center;
-    margin-left: auto;
-    padding-right: 2em;
-  }
-
-  .header_logo_image {
-    width: 200px;
+    display: none;
+    font-size: 1.75rem;
+    font-weight: var(--fw-600);
+    line-height: 2.75rem;
+    list-style-type: none;
+    height: 100vh;
+    background: transparent;
+    color: #fff;
+    padding: 1em;
   }
 
   .navbar_menu_content_element {
-    color: black!important;
-    padding-left: 1em;
-    padding-right: 1em;
-  }
-  
-  .last_menu_item {
-    color: red!important;
-    border: 3px solid red;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    font-family: 'lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    color: red;
   }
 
-  .desktop_home {
-    padding-right: 37em;
+  .navbar_menu_content_element:hover {
+    text-decoration: underline;
   }
 
+  .desktop_nav_bar {
+    display: none;
+  }
+
+  .close_menu_button {
+    width: auto;
+    margin-left: auto;
+    color: #67798e;
+    margin-bottom: 1em;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .mobile_close_button {
+    color: red;
+    margin-left: auto;
+    padding: 0.5em;
+  }
+
+  .mobile_close_button:hover {
+    color: red;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px, rgba(0, 0, 0, 0.12) 0 -12px 30px, rgba(0, 0, 0, 0.12) 0 4px 6px, rgba(0, 0, 0, 0.17) 0 12px 13px, rgba(0, 0, 0, 0.09) 0 -3px 5px;
+    border-radius: 16px;
+  }
 
   .home_section {
     height: auto;
-    background-image: url("assets/mobile_home_bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-bottom: 3em;
+    background-image: url("../assets/mobile_home_bg.png");
+    padding-left: 1.5em;
+    padding-right: 1.5em;
     padding-top: 1em;
   }
 
   .titles {
     margin-top: 1em;
-    color: #FF4F38;
+    color: #ff4f38;
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-  }
-
-  .greating_title {
-
   }
 
   .section_title {
@@ -104,7 +106,6 @@ body {
     margin-bottom: 0;
     text-align: center;
     text-transform: uppercase;
-    width: 60%;
   }
 
   .edition_title {
@@ -115,27 +116,8 @@ body {
     padding: 1em;
     font-size: 19px;
     height: auto;
-    text-align: center;
+    text-align: justify;
     background-color: white;
-    margin-top: 3em;
-  }
-
-  .contactemail {
-    text-decoration: underline!important;
-  }
-
-  
-
-  .emplacement {
-    padding: 1em;
-    font-size: 19px;
-    height: auto;
-    text-align: center;
-    padding-bottom: 2em;
-    padding-top: 3em;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 2em;
   }
 
   .logo_section {
@@ -143,9 +125,8 @@ body {
     flex-direction: column;
     align-items: center;
     padding-top: 2em;
-    padding-right: 3em;
   }
-  
+
   .logo_title {
     font-size: 1.5rem;
     width: 60%;
@@ -161,36 +142,40 @@ body {
     text-align: center;
     padding-left: 2em;
     padding-right: 2em;
-    width: 50%;
-    margin-bottom: 0;
   }
 
   .logo_section_logo {
-    width: 30%;
-    border: 2px solid #d3d3d3;
-    padding: 2.5em;
+    width: 80%;
+    border: 2px solid #818181;
+    padding: 1em;
     margin-bottom: 3em;
-    margin-top: 2em;
+  }
 
+  .emplacement {
+    padding: 1em;
+    font-size: 19px;
+    height: auto;
+    text-align: center;
+    padding-bottom: 2em;
+    padding-top: 3em;
+    display: flex;
+    flex-direction: column;
   }
 
   .section_separator {
     width: 100%;
-    border: 1px solid #d3d3d3;
+    border: 1px solid #818181;
   }
 
   .event_section {
-
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;  
+    justify-content: center;
     align-items: center;
     padding-top: 2em;
     gap: 1em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 3em;
+    padding-bottom: 3em;
   }
 
   .section_description {
@@ -202,7 +187,9 @@ body {
   .events_list {
     width: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    gap: 2em;
   }
 
   .event_card {
@@ -217,6 +204,7 @@ body {
   }
 
   .event_image {
+    width: 100%;
     height: 100%;
   }
 
@@ -236,9 +224,6 @@ body {
   .event_theme {
     font-weight: bolder;
   }
-  .mobile_partners {
-    display: none;
-  }
 
   .partners_section {
     width: 100%;
@@ -246,7 +231,34 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #424244;
-    display: none;
+  }
+
+  .partners_list {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .partner {
+    width: 30%;
+    padding-left: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .partner_image {
+    width: 100%;
+  }
+
+  .patner_title {
+    color: #fff;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
   }
 
   .project_footer {
@@ -256,9 +268,6 @@ body {
     justify-content: center;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
-    padding-left: 20%;
-    padding-right: 20%;
-    background-color: #424244;
   }
 
   .footer_logo_image {
@@ -268,10 +277,8 @@ body {
   .footer_copyright {
     padding-left: 1em;
     padding-right: 1em;
-    font-size: 1rem;
-    color: #fff;
+    font-size: 0.7rem;
   }
-
 }
 
 a {

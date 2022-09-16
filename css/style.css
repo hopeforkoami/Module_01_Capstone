@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
   .site_container {
     width: 100%;
     margin: 0;
@@ -15,7 +15,6 @@
   .menu_icon {
     height: 20px;
     width: 20px;
-
   }
 
   .header_logo {
@@ -23,7 +22,6 @@
     padding: 1em;
   }
 
-  
   .navbar_menu_content {
     display: none;
     font-size: 1.75rem;
@@ -31,7 +29,7 @@
     line-height: 2.75rem;
     list-style-type: none;
     height: 100vh;
-    background-image: url("assets/main_section_background.jpg");
+    background: transparent;
     color: #fff;
     padding: 1em;
   }
@@ -40,15 +38,18 @@
     padding: 0.75rem 1rem;
     text-decoration: none;
     transition-duration: 0.3s;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 44px;
     display: flex;
     align-items: center;
-    color: #fff;
-    text-decoration: none;
+    color: red;
+  }
+
+  .navbar_menu_content_element:hover {
+    text-decoration: underline;
   }
 
   .desktop_nav_bar {
@@ -69,28 +70,28 @@
   }
 
   .mobile_close_button {
-    color: #fff;
+    color: red;
     margin-left: auto;
     padding: 0.5em;
   }
 
+  .mobile_close_button:hover {
+    color: red;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px, rgba(0, 0, 0, 0.12) 0 -12px 30px, rgba(0, 0, 0, 0.12) 0 4px 6px, rgba(0, 0, 0, 0.17) 0 12px 13px, rgba(0, 0, 0, 0.09) 0 -3px 5px;
+    border-radius: 16px;
+  }
 
   .home_section {
     height: auto;
-    background-image: url("assets/mobile_home_bg.png");
-
+    background-image: url("../assets/mobile_home_bg.png");
     padding-left: 1.5em;
     padding-right: 1.5em;
     padding-top: 1em;
   }
 
   .titles {
-    color: #FF4F38;
+    color: #ff4f38;
     margin-top: 1em;
-  }
-
-  .greating_title {
-
   }
 
   .section_title {
@@ -125,12 +126,8 @@
     font-weight: bold;
   }
 
-  .emplacement_location {
-
-  }
-
   .main_program {
-    background-image: url("assets/main_section_background.jpg");
+    background-image: url("../assets/main_section_background.jpg");
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -143,10 +140,6 @@
     background-size: cover;
   }
 
-  .section_title {
-
-  }
-
   .section_separator {
     height: 1px;
     border-radius: 15px;
@@ -156,7 +149,7 @@
   }
 
   .program_element {
-    background-color: #3D4046; 
+    background-color: #3d4046;
     display: flex;
     margin-top: 1em;
     padding: 0.5em;
@@ -184,7 +177,7 @@
   .join_conference_button {
     margin-top: 2em;
     height: 4em;
-    background-color: #FF4F38;
+    background-color: #ff4f38;
     color: #fff;
     width: 60%;
     border: none;
@@ -209,37 +202,25 @@
     display: flex;
     align-items: flex-start;
     margin-top: 1em;
-
-  }
-
-  .speacker_show {
-    
-  }
-
-  .speaker_image {
   }
 
   .speaker_details {
     display: flex;
     flex-direction: column;
-
   }
 
   .speaker_name {
     color: #272a31;
     font-size: 1.8rem;
     font-weight: normal;
-
   }
 
   .speaker_fonction {
     font-style: italic;
     font-size: 1rem;
-    font-weight: 100;
     font-family: "lato", sans-serif;
     color: #ec5242;
     font-weight: bold;
-
   }
 
   .speaker_details_separator {
@@ -269,10 +250,6 @@
     display: none;
   }
 
-  .see_more_text {
-
-  }
-
   .more_icon {
     margin-left: 0.5em;
   }
@@ -300,6 +277,13 @@
     font-size: 0.7rem;
   }
 
+  .mobile_partners {
+    display: none;
+  }
+
+  .desktop_visible {
+    display: none;
+  }
 }
 
 a {
@@ -320,5 +304,5 @@ a:hover {
 
 body {
   margin: 0;
-  font-family: lato!important;
+  font-family: lato, sans-serif !important;
 }

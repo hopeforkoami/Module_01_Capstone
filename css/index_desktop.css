@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   .site_container {
     width: 100%;
     margin: 0;
@@ -20,10 +20,12 @@
     display: flex;
     gap: 2em;
     margin-left: auto;
-    background-color: #3E3E3E;
+    background-color: #3e3e3e;
     color: #fff;
     align-items: center;
     width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .social {
@@ -38,16 +40,32 @@
     display: flex;
     gap: 1em;
     list-style: none;
-    padding-right: 2em;
   }
 
   .navbar_menu_content {
     display: flex;
     list-style: none;
-    gap: 1.5em;
     align-items: center;
     margin-left: auto;
-    padding-right: 2em;
+    padding-right: 5%;
+    width: 100%;
+    margin-bottom: 0;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .menu_left_part {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .menu_right_part {
+    display: flex;
+    align-items: flex-end;
+    margin-left: auto;
+    justify-content: flex-end;
   }
 
   .header_logo_image {
@@ -55,24 +73,23 @@
   }
 
   .navbar_menu_content_element {
-    color: black!important;
+    color: black !important;
     padding-left: 1em;
     padding-right: 1em;
   }
-  
+
+  .navbar_menu_content_element:hover {
+    color: red !important;
+  }
+
   .last_menu_item {
-    color: red!important;
+    color: red !important;
     border: 3px solid red;
   }
 
-  .desktop_home {
-    padding-right: 37em;
-  }
-
-
   .home_section {
     height: auto;
-    background-image: url("assets/mobile_home_bg.png");
+    background-image: url("../assets/mobile_home_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding-left: 20%;
@@ -83,17 +100,13 @@
 
   .titles {
     margin-top: 1em;
-    color: #FF4F38;
+    color: #ff4f38;
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: flex-start;
     flex-wrap: wrap;
     font-weight: bolder;
     font-size: xx-large;
-  }
-
-  .greating_title {
-
   }
 
   .section_title {
@@ -102,10 +115,16 @@
     text-align: left;
     text-transform: uppercase;
     width: 60%;
+    font-size: xx-large;
+    font-weight: bold;
   }
 
   .edition_title {
     margin-top: 0;
+  }
+
+  .greating_title {
+    font-size: 1.5rem;
   }
 
   .description {
@@ -119,10 +138,8 @@
   }
 
   .contactemail {
-    text-decoration: underline!important;
+    text-decoration: underline !important;
   }
-
-  
 
   .emplacement {
     padding: 1em;
@@ -141,12 +158,8 @@
     font-size: 3rem;
   }
 
-  .emplacement_location {
-
-  }
-
   .main_program {
-    background-image: url("assets/main_section_background.jpg");
+    background-image: url("../assets/main_section_background.jpg");
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -174,17 +187,15 @@
   .program_content {
     display: flex;
     width: 80%;
+    gap: 3px;
   }
 
   .program_element {
-    background-color: #3D4046; 
+    background-color: #3d4046;
     display: flex;
     flex-direction: column;
     margin-top: 1em;
-    padding: 0.5em;
     align-items: center;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
     opacity: 0.7;
     width: 20%;
   }
@@ -195,14 +206,14 @@
 
   .program_title {
     padding: 0.5em;
-    color: #FA5528;
+    color: #fa5528;
     font-size: larger;
     font-weight: bolder;
   }
 
   .program_description {
     padding-left: 0.5em;
-    width: 65%;
+    text-align: center;
   }
 
   .join_conference_button {
@@ -242,7 +253,6 @@
     justify-content: center;
     gap: 1em;
     flex-wrap: wrap;
-    
   }
 
   .speaker_card {
@@ -250,37 +260,25 @@
     align-items: flex-start;
     margin-top: 1em;
     width: 40%;
-
-  }
-
-  .speacker_show {
-    
-  }
-
-  .speaker_image {
   }
 
   .speaker_details {
     display: flex;
     flex-direction: column;
-
   }
 
   .speaker_name {
     color: #272a31;
     font-size: 1.8rem;
     font-weight: normal;
-
   }
 
   .speaker_fonction {
     font-style: italic;
     font-size: 1rem;
-    font-weight: 100;
     font-family: "lato", sans-serif;
     color: #ec5242;
     font-weight: bold;
-
   }
 
   .speaker_details_separator {
@@ -299,9 +297,6 @@
 
   .see_more_div {
     width: 90%;
-  }
-
-  .see_more_div{
     display: none;
   }
 
@@ -327,7 +322,6 @@
     align-items: center;
     justify-content: center;
     padding-left: 0;
-
   }
 
   .partner {
@@ -337,7 +331,7 @@
     align-items: center;
     justify-content: center;
   }
-  
+
   .partner_image {
     width: 100%;
   }
@@ -368,7 +362,6 @@
     font-size: 0.7rem;
     font-size: larger;
   }
-
 }
 
 a {
@@ -389,5 +382,5 @@ a:hover {
 
 body {
   margin: 0;
-  font-family: lato!important;
+  font-family: lato, sans-serif !important;
 }
